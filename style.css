@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&display=swap');
+
+/* color pallete: #2b2d32 , #E7E9EC, #A3A5A8 */
+
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+.section-1 {
+   background: url(images/person2.jpg) no-repeat center center/cover;
+   height: 100vh;
+   width: 100%;
+}
+
+/* Navbar */
+   .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 6%;
+   }
+
+   .nav-links li {
+      list-style: none;
+      display: inline-block;
+      padding: 0 20px;
+
+   }
+
+   li, a, button {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: 1rem;
+      color: #E7E9EC;
+      text-decoration: none;
+   }
+
+   .mayk-logo { 
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 3rem;
+      transition: all 0.3s ease 0s;
+   }
+
+   button {
+      padding: 8px 20px;
+      background-color: #2b2d32;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+   }
+   
+   button:hover {
+      transform: scale(1.1);
+   }
+
+   .nav-links li a {
+      transition: all 0.3s ease 0s;
+   }
+
+   .nav-links li a:hover {
+      color: #A3A5A8;
+   }
+
+   .mayk-logo:hover {
+      color: #A3A5A8;
+   }
+
+/* Home Section */
+   .content {
+      position: absolute;
+      top: 45%;
+      left: 15%;
+      transition: all 0.3s ease 0s;
+      transform: translateY(-50%);
+   }
+
+   .text-1, .text-2, .text-3{
+      color: #E7E9EC;
+      font-family: 'Montserrat', sans-serif;
+   }
+
+   .text-1 {
+      font-weight: 500;
+      font-size: 50px;
+   }
+
+   .text-2 {
+      font-weight: 900;
+      margin: 10px auto;
+      font-size: 70px;
+   }
+
+   .text-3 {
+      font-weight: 500;
+      font-size: 35px;
+   }
+
+/* Social Media */
+   .social {
+      position: absolute;
+      top: 75%;
+      left: 6%;
+      display: flex;
+      flex-direction: column;
+   }
+
+   .social a {
+      margin: 10px auto;
+      font-size: 1.3em;
+      transition: all 0.3s ease 0s;
+   }
+
+   .social a:hover {
+      transform: scale(2);
+   }
+   
